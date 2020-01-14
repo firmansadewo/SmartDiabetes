@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#7DBCE5</color>
+    <color name="belumpunyaakun">#505151</color>
+    <color name="daftar">#2889C8</color>
+
+    <color name="active_tab_color">#595A5A</color>
+    <color name="inactive_tab_color">#C5C5C5</color>
+    <color name="colorNavigationIcon">#dae9f6</color>
+    <color name="colorNavigationText">#ffffff</color>
+
+    <color name="colorTransparent">#43000000</color>
+
+    <color name="color_white_semitransparent">#99FFFFFF</color>
+
+
+    <color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+    <color name="yellow">#FFFB00</color>
+    <color name="redtrans">#FF2525</color>
+    <color name="greentrans">#2EFF2E</color>
+    <color name="yellowtrans">#FFDC2E</color>
+    <color name="blue">#0000ff</color>
+    <color name="nearly_white">#F3F2F2</color>
+    <color name="light_grey">#C2C2C2</color>
+    <color name="grey">#888888</color>
+    <color name="dark_grey">#555555</color>
+
+    <color name="alarm_title_active">#3B8BBE</color>
+    <color name="alarm_title_outdated">#9FB2BD</color>
+    <color name="alarm_details">#929292</color>
+
+
+    <color name="primary">#9E9E9E</color>
+    <color name="primary_dark">#757575</color>
+    <color name="text_color_primary">#FFF</color>
+    <color name="text_color">#6D6D6D</color>
+
+    <color name="grey_transparent">#50000000</color>
+    <color name="greydark">#90000000</color>
+
+
+</resources>

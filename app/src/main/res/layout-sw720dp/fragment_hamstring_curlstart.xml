@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:background="@drawable/headermuscle"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Hamstring Curl"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:alpha=".80"
+        android:fontFamily="@font/bahnschrift"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="9900dp"
+            android:layout_marginTop="10dp"
+            android:translationZ="60dp"
+            android:orientation="vertical">
+
+
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/hamstringcurlgif" />
+
+            <TextView
+                android:id="@+id/textdesc"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Hamstring Curl"
+                android:textAllCaps="false"
+                android:textColor="@color/daftar"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textfinish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-5dp"
+                android:text="x10"
+                android:textAllCaps="false"
+                android:textColor="@color/daftar"
+                android:textSize="45dp" />
+
+
+            <Button
+                android:id="@+id/btnfinish"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="131dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/buttoncheck"
+                android:fontFamily="@font/bahnschrift"
+                android:paddingBottom="10dp"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

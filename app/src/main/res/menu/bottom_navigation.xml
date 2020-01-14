@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_calculator"
+        android:icon="@drawable/ic_calculator"
+        android:title="Calculator" />
+
+    <item
+        android:id="@+id/nav_tracking"
+        android:icon="@drawable/ic_stats"
+        android:title="Tracking" />
+
+    <item
+        android:id="@+id/nav_exercise"
+        android:enabled="true"
+        android:icon="@drawable/ic_dumbbell"
+        android:title="Exercise" />
+
+    <item
+        android:id="@+id/nav_food"
+        android:icon="@drawable/ic_spoonfork"
+        android:title="Food" />
+
+    <item
+        android:id="@+id/nav_alarm"
+        android:icon="@drawable/ic_alarmclock"
+        android:title="Alarm" />
+
+</menu>

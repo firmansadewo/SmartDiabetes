@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Login.Login">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="325dp">
+
+        <ImageView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="328dp"
+            android:layout_marginLeft="0dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="header"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/headerlogin" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="236dp"
+            android:layout_height="277dp"
+            android:layout_marginVertical="30dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/logotextshadow" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:layout_below="@+id/header"
+                android:layout_marginTop="-40dp"
+                android:layout_marginBottom="25dp"
+                android:adjustViewBounds="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="250dp"
+                    android:gravity="bottom|fill_horizontal|center_vertical|fill_vertical"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/kotaklogin"
+                        android:layout_width="309dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        app:cardBackgroundColor="@android:color/transparent"
+                        app:cardElevation="0dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/textInputLayoutEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            app:errorEnabled="true">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/editTextEmail"
+                                android:layout_width="275dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_line"
+                                android:layout_gravity="center_horizontal"
+                                android:drawableLeft="@drawable/ic_person"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="segoeUI"
+                                android:hint="@string/email"
+                                android:inputType="textEmailAddress" />
+                        </android.support.design.widget.TextInputLayout>
+
+                        <android.support.design.widget.TextInputLayout
+                            android:id="@+id/textInputLayoutPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="80dp"
+                            app:errorEnabled="true"
+                            app:passwordToggleEnabled="true"
+                            app:passwordToggleTint="@color/colorAccent">
+
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/editTextPassword"
+                                android:layout_width="276dp"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/ic_line"
+                                android:layout_gravity="center_horizontal"
+                                android:drawableStart="@drawable/ic_lock"
+                                android:drawableLeft="@drawable/ic_lock"
+                                android:drawablePadding="10dp"
+                                android:fontFamily="segoeUI"
+                                android:hint="@string/password"
+                                android:inputType="textPassword" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <Button
+                        android:id="@+id/buttonLogin"
+                        android:layout_width="106dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="28dp"
+                        android:layout_gravity="center|bottom"
+                        android:background="@drawable/ic_buttonmasuk"
+                        android:fontFamily="segoeUI"
+                        android:text="@string/masuk"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp"/>
+
+                    <LinearLayout
+                        android:id="@+id/tulisanbuatakun"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center|bottom"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="segoeUI"
+                            android:text="Belum punya akun?"
+                            android:textColor="@color/belumpunyaakun"
+                            android:textSize="17sp"/>
+
+                        <Button
+                            android:id="@+id/buttontextRegister"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="-2dp"
+                            android:layout_marginLeft="-10dp"
+                            android:fontFamily="segoeUI"
+                            android:text="Daftar."
+                            android:textAllCaps="false"
+                            android:textColor="@color/daftar"
+                            android:textSize="17sp"
+                            android:translationZ="90dp"
+                            android:background="@android:color/transparent"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

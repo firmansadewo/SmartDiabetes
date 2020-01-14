@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="110dp">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@drawable/headerfood"/>
+
+    <TextView
+        android:id="@+id/titleheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:alpha=".60"
+        android:text="Reminder Makan"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:fontFamily="@font/bahnschrift" />
+  </FrameLayout>
+
+  <LinearLayout
+      android:padding="8sp"
+      android:layout_marginTop="120dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#ffffff"
+      android:orientation="vertical">
+
+    <TextView
+        style="@style/widget"
+        android:text="Title" />
+
+    <EditText
+        style="@style/widget"
+        android:textColor="#000000"
+        android:id="@+id/title"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:paddingTop="8sp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+      <CheckBox
+          android:id="@+id/alarm_checkbox"
+          android:layout_weight="1"
+          android:layout_width="0sp"
+          android:layout_height="wrap_content"
+          android:text="Alarm" />
+
+      <Spinner
+          android:id="@+id/occurence_spinner"
+          android:layout_weight="1"
+          android:layout_width="0sp"
+          android:layout_height="wrap_content"
+          android:spinnerMode="dropdown"
+          android:entries="@array/occurence" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="8sp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+      <Button
+          android:id="@+id/date_button"
+          android:layout_weight="2"
+          android:layout_width="0sp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:onClick="onDateClick" />
+
+      <Button
+          android:id="@+id/time_button"
+          android:layout_weight="1"
+          android:layout_width="0sp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:onClick="onTimeClick" />
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+
+
+  <LinearLayout
+      android:orientation="horizontal"
+      android:padding="8sp"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+
+    <Button
+        style="@style/edit_button"
+        android:id="@+id/done"
+        android:text="Done"
+        android:onClick="onDoneClick" />
+
+    <Button
+        style="@style/edit_button"
+        android:id="@+id/cancel"
+        android:text="Cancel"
+        android:onClick="onCancelClick" />
+
+  </LinearLayout>
+
+
+  <ImageView
+      android:id="@+id/footer"
+      android:layout_width="match_parent"
+      android:layout_height="215dp"
+      android:layout_marginTop="115dp"
+      android:layout_below="@+id/cancel"
+      android:rotation="180"
+      android:alpha=".2"
+      android:background="@drawable/headerlogin"/>
+
+
+</LinearLayout>
+

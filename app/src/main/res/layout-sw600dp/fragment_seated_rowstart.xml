@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:background="@drawable/headermuscle"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Seated Row"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:alpha=".80"
+        android:fontFamily="@font/bahnschrift"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="9900dp"
+            android:layout_marginTop="10dp"
+            android:translationZ="60dp"
+            android:orientation="vertical">
+
+
+            <ProgressBar
+                android:id="@+id/progressBarCircle"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/drawable_circle_grey"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="100"
+                android:translationZ="90dp"
+                android:progressDrawable="@drawable/drawable_circle_blue"
+                android:rotation="-90"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-227dp"
+                android:src="@drawable/seatedrowgif" />
+
+            <TextView
+                android:id="@+id/textViewTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="55dp"
+                android:text="00:30"
+                android:textColor="@color/daftar"
+                android:textSize="40sp" />
+
+            <ImageView
+                android:id="@+id/imageViewStartStop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/progressBarCircle"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/icon_start" />
+
+            <ImageView
+                android:id="@+id/imageViewReset"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="-45dp"
+                android:src="@drawable/icon_reset"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/textfinish"
+                android:layout_width="158dp"
+                android:layout_height="34dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Finish!"
+                android:textAllCaps="false"
+                android:textColor="@color/daftar"
+                android:textSize="24dp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

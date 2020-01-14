@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">diabetes</string>
+    <string name="create_account"><font color="#2889C8">text</font></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="masuk">Masuk</string>
+    <string name="aboutisi">Smart Assistant Diabetes Mobile made by Firman Sadewo for final assignment in Computer Engineering, Diponegoro University.</string>
+
+    <!--Calculator -->
+    <string name="Height">Height</string>
+    <string name="Weight">Weight</string>
+    <string name="BMIvalue">BMI Value</string>
+    <string name="CategoryValue">Category Value</string>
+    <string name="btnCalc">Calculate</string>
+
+    <!--Muscle-->
+    <string name="bicepcurllangkah">Petunjuk :</string>
+    <string name="bicepcurllangkah1">1.Berdiri tegak dengan dumbbell di masing-masing tangan, buka kaki selebar bahu dan tangan di samping Anda.</string>
+    <string name="bicepcurllangkah2">2. Angkat dumbbell perlahan-lahan. Jaga siku tetap dekat dengan tubuh Anda dan lengan atas tetap pada posisi semula, hanya lengan bawah yang bergerak.</string>
+    <string name="bicepcurllangkah3">3. Setelah dumbbell berada setinggi bahu, turunkan lengan perlahan-lahan ke posisi awal.</string>
+    <string name="bicepcurllangkah4">4. Ulangi.</string>
+    <string name="bicepcurlpenjelasan">Lakukan 1-3 set, dengan masing-masing set 10-16 pengulangan</string>
+
+    <string name="tricepsextensionlangkah">Petunjuk :</string>
+    <string name="tricepsextensionlangkah1">1. Ambil dumbbell dan berdiri tegak dengan kaki dibuka selebar bahu.</string>
+    <string name="tricepsextensionlangkah2">2. Angkat lengan, arahkan siku ke arah depan, lalu turunkan dumbbell perlahan-lahan.</string>
+    <string name="tricepsextensionlangkah3">3. Angkat dumbbell ke posisi awal.</string>
+    <string name="tricepsextensionlangkah4">4. Ulangi.</string>
+    <string name="tricepsextensionpenjelasan">Mulai dengan 2 set, dengan masing-masing set 8-12 pengulangan. Tambah perlahan-lahan hingga menjadi 3 set dengan 16 pengulangan</string>
+
+    <string name="shoulderpresslangkah">Petunjuk :</string>
+    <string name="shoulderpresslangkah1">1. Berdirilah dengan kaki selebar bahu dan pegang dumbbell di masing-masing tangan.</string>
+    <string name="shoulderpresslangkah2">2. Angkat lengan ke samping dan posisikan dumbbell setinggi bahu Anda.</string>
+    <string name="shoulderpresslangkah3">3. Dorong dumbbell ke atas dan rentangkan lengan Anda sepenuhnya.</string>
+    <string name="shoulderpresslangkah4">4. Turunkan dumbbell kembali dan ulangi gerakan sampai set selesai.</string>
+    <string name="shoulderpresspenjelasan">Lakukan 1 set dengan durasi 30-60 detik untuk membentuk tubuh bagian atas dan lakukan 2-3 set dengan masing-masing set 6-8 pengulangan untuk meningkatkan massa otot.</string>
+
+    <string name="chestpresslangkah">Petunjuk :</string>
+    <string name="chestpresslangkah1">1. Berbaringlah di atas tikar dengan kedua lutut ditekuk dan pegang dumbbell di masing-masing tangan.</string>
+    <string name="chestpresslangkah2">2. Dorong dumbbell ke depan sehingga lengan Anda berada tepat di atas bahu Anda.</string>
+    <string name="chestpresslangkah3">3. Turunkan lengan Anda dan ulangi gerakannya.</string>
+    <string name="chestpresspenjelasan">Mulai dengan 2-3 set, dengan masing-masing set 8-12 pengulangan.</string>
+
+    <string name="seatedrowlangkah">Petunjuk :</string>
+    <string name="seatedrowlangkah1">1. Duduk di lantai dengan posisi kaki lurus, letakkan resistance band/karet gelang di sekitar telapak kaki Anda dan pegang ujung karet di masing-masing tangan.</string>
+    <string name="seatedrowlangkah2">2. Tarik karet hingga dekat dengan pinggang Anda.</string>
+    <string name="seatedrowlangkah3">3. Lepaskan perlahan-lahan hingga kembali ke posisi awal dan ulangi.</string>
+    <string name="seatedrowpenjelasan">Lakukan 2-3 set, dengan durasi 30-60 detik tiap set-nya</string>
+
+    <string name="classiccrunchlangkah">Petunjuk :</string>
+    <string name="classiccrunchlangkah1">1. Berbaringlah di atas tikar dengan kedua lutut ditekuk dan kedua tangan menopang kepala Anda.</string>
+    <string name="classiccrunchlangkah2">2. Angkat bahu Anda dan tahan selama 1 hingga 2 detik.</string>
+    <string name="classiccrunchlangkah3">3. Kembali ke posisi awal perlahan-lahan dan ulangi sampai set selesai.</string>
+    <string name="classiccrunchpenjelasan">Mulai dengan 2-3 set, dengan masing-masing set 15-20 pengulangan</string>
+
+    <string name="planklangkah">Petunjuk :</string>
+    <string name="planklangkah1">1. Posisikan tubuh seperti sedang push up, dengan siku di bawah bahu dan kaki selebar pinggul.</string>
+    <string name="planklangkah2">2. Tekuk siku Anda dan jaga agar tubuh Anda tetap lurus.</string>
+    <string name="planklangkah3">3. Tahan selama mungkin.</string>
+    <string name="plankpenjelasan">Mulai dengan 1 set, dengan durasi 30-60 detik</string>
+
+    <string name="squatlangkah">Petunjuk :</string>
+    <string name="squatlangkah1">1. Berdirilah dengan kaki dibuka selebar bahu.</string>
+    <string name="squatlangkah2">2. Tekuk lutut Anda, turunkan bagian tubuh atas secara perlahan-lahan dan berhenti saat posisi pinggul lebih rendah dari lutut.</string>
+    <string name="squatlangkah3">3. Naikkan tubuh bagian atas secara perlahan-lahan hingga kembali ke posisi awal.</string>
+    <string name="squatlangkah4">4. Ulangi sampai set selesai.</string>
+    <string name="squatpenjelasan">Lakukan 3 set dengan 15-20 pengulangan tiap set-nya untuk menurunkan berat badan dan lakukan 3 set dengan masing-masing set 8-15 pengulangan dengan membawa dumbbell untuk meningkatkan massa otot.</string>
+
+    <string name="lungeslangkah">Petunjuk :</string>
+    <string name="lungeslangkah1">1. Berdirilah dengan kaki dibuka selebar pinggul dan jaga punggung agar tetap lurus.</string>
+    <string name="lungeslangkah2">2. letakkan salah satu kaki ke depan dan perlahan-lahan tekuk kedua lutut, sampai lutut belakang Anda tepat di atas lantai.</string>
+    <string name="lungeslangkah3">3. Mundur dan ulangi gerakan.</string>
+    <string name="lungeslangkah4">4. Ganti kaki sampai set selesai.</string>
+    <string name="lungespenjelasan">Lakukan 1 set dengan 8-12 pengulangan.</string>
+
+    <string name="hamstringcurllangkah">Petunjuk :</string>
+    <string name="hamstringcurllangkah1">1. Berbaring telungkup dengan posisi kaki lurus dan tangan di bawah dada.</string>
+    <string name="hamstringcurllangkah2">2. Tekuk lutut Anda ke atas.</string>
+    <string name="hamstringcurllangkah3">3. Turunkan dan luruskan kaki Anda dan ulangi sampai set selesai.</string>
+    <string name="hamstringcurlpenjelasan">Lakukan 2-3 set, dengan masing-masing set 10-16 pengulangan</string>
+
+    <!--Swimming-->
+    <string name="swimmingpenjelasan">Mulailah dengan 5 hingga 10 menit per sesi berenang, setelah itu latih hingga 45 hingga 60 menit seiring meningkatnya daya tahan tubuh Anda. Jangan lupa untuk beristirahat sebentar di antar sesi agar dapat membantu Anda memulihkan energi untuk melanjutkan.</string>
+    <string name="swimminglangkah">Berikut adalah tips sederhana sebelum berenang bagi penderita diabetes : </string>
+    <string name="swimminglangkah1">1. Sebelum berenang, makanlah cemilan atau makanan ringan dengan protein, lemak, dan karbohidrat kompleks.</string>
+    <string name="swimminglangkah2a">2. Periksa kadar gula darah Anda setiap jam saat berada di kolam renang. </string>
+    <string name="swimminglangkah2b">2. Periksa kadar glukosa Anda sebelum berenang: gula darah harus di atas 100 mg/dl, atau jumlah lain yang sudah disetujui oleh dokter Anda. </string>
+    <string name="swimminglangkah3">3. Tetap terhidrasi. Minumlah setidaknya 235 ml air mineral setiap kali Anda memeriksa kadar gula darah. </string>
+    <string name="swimminglangkah4">4. Makan makanan ringan jika perlu. </string>
+    <string name="swimminglangkah5">5. Awasi glukosa Anda selama 12 hingga 24 jam setelah berenang. </string>
+    <string name="swimminglangkah6">6. Selalu bawa identifikasi diabetes pada Anda saat berenang, baik berupa gelang atau kalung medis, atau kartu yang menyatakan Anda menderita diabetes ataupun kartu tanda pengenal lainnya.</string>
+
+
+    <!--Cycling-->
+    <string name="cyclingpenjelasan">Mulailah dengan mencoba temukan jarak tempuh Anda. Bagi yang baru memulai bersepeda disarankan untuk memilih rute yang relatif datar dengan jarak kurang dari 5 km dengan kecepatan rata-rata 10-14km/jam. Lakukan sebanyak 3-5 kali dalam seminggu dengan durasi minimal 45 menit. Tingkatkan jarak tempuh Anda tiap 1-2 minggu setelahnya. Coba kombinasi jarak jauh dengan kecepatan sedang dan jarak pendek dengan kecepatan tinggi serta dengan tanjakan ataupun bukit.</string>
+    <string name="cyclinglangkah">Berikut adalah tips sederhana sebelum bersepeda bagi penderita diabetes : </string>
+    <string name="cyclinglangkah1">1. Selalu pemanasan sebelum bersepeda dan jangan lupa sertakan beberapa menit untuk istirahat. </string>
+    <string name="cyclinglangkah2">2. Minumlah banyak air dan tetap terhidrasi</string>
+    <string name="cyclinglangkah3">3. Selalu bawa identifikasi diabetes pada Anda saat bersepeda, baik berupa gelang atau kalung medis, atau kartu yang menyatakan Anda menderita diabetes ataupun kartu tanda pengenal lainnya.</string>
+
+    <!--Jogging-->
+    <string name="joggingpenjelasan">Mulailah dengan langkah-langkah kecil, kemudian tingkatkan intensitas dan durasi di minggu berikutnya. Untuk pemula, disarankan untuk joging dengan durasi 15 menit, kemudian boleh ditambah menjadi 30 menit setelah 4-5 hari tergantung pada kekuatan tubuh Anda. Usahakan tidak jogging lebih dari 60 menit dan disarankan untuk melakukannya 5 kali dalam seminggu. </string>
+    <string name="jogginglangkah">Berikut adalah tips sederhana sebelum jogging bagi penderita diabetes : </string>
+    <string name="jogginglangkah1">1. Pemanasan dan pendinginan kurang lebih 5 menit</string>
+    <string name="jogginglangkah2">2. Perbanyak minum air dan tetap terhidrasi</string>
+    <string name="jogginglangkah3">3. Usahakan memiliki partner lari yang dapat membantu Anda apabila dampak negatif yang tak diharapkan muncul tiba-tiba.</string>
+    <string name="jogginglangkah4">4. Siapkan makanan atau minuman yang mengandung gula yang mudah diserap, seperti permen atau teh manis untuk mengembalikan kadar gula darah Anda menjadi normal apabila Anda mengalami hipoglikemia.</string>
+    <string name="jogginglangkah5">5. Pilih alas kaki yang nyaman untuk digunakan karena penderita diabetes rentan terhadap luka dan untuk menghindari kemungkinan terjadinya luka yang sulit disembuhkan</string>
+    <string name="jogginglangkah6">6. Selalu bawa identifikasi diabetes pada Anda saat jogging, baik berupa gelang atau kalung medis, atau kartu yang menyatakan Anda menderita diabetes ataupun kartu tanda pengenal lainnya.</string>
+
+    <!--MountainPose-->
+    <string name="mountainlangkah">Petunjuk :</string>
+    <string name="mountainlangkah1">1. Berdiri tegak dengan kedua kaki sejajar. </string>
+    <string name="mountainlangkah2">2. Satukan kedua telapak tangan Anda dan posisikan di depan dada. </string>
+    <string name="mountainlangkah3">3. Pertahankan posisi selama 30-60 detik. </string>
+
+    <!--Downward Facing Dog Pose-->
+    <string name="downwardlangkah">Petunjuk : </string>
+    <string name="downwardlangkah1">1. Angkat pinggul Anda secara perlahan dan gunakan kedua ujung kaki serta telapak tangan sebagai tumpuan. </string>
+    <string name="downwardlangkah2">2. Arahkan pandangan ke lutut untuk membantu punggung, tangan serta kaki menjadi lurus hingga membentuk huruf "V" terbalik. </string>
+    <string name="downwardlangkah3">3. Pertahankan posisi selama 1-3 menit. </string>
+
+    <!--ChildsPose-->
+    <string name="childslangkah">Petunjuk : </string>
+    <string name="childslangkah1">1. Duduk di atas kedua kaki dan pastikan memberi sedikit jarak antar kedua lutut. </string>
+    <string name="childslangkah2">2. Bungkukkan badan hingga menyentuh paha dengan tangan lurus ke depan dan menempel pada lantai/tikar. </string>
+    <string name="childslangkah3">3. Letakkan dahi Anda di atas lantai/tikar dan pertahankan posisi selama 30-60 detik. </string>
+
+    <!--BridgePose-->
+    <string name="bridgelangkah">Petunjuk : </string>
+    <string name="bridgelangkah1">1. Berbaring telentang, tekuk kedua lutut, dan posisikan kaki sejajar dengan bahu. </string>
+    <string name="bridgelangkah2">2. Angkat pinggul sambil meluruskan tulang ekor secara perlahan. </string>
+    <string name="bridgelangkah3">3. Dengan bahu dan kaki sebagai tumpuan, silangkan kedua tangan dengan rapat di bawah tubuh. </string>
+    <string name="bridgelangkah4">4. Pertahankan posisi selama 30-60 detik. </string>
+
+    <!--TreePose-->
+    <string name="treelangkah">Petunjuk : </string>
+    <string name="treelangkah1">1. Berdirilah di atas matras dengan kaki lurus sejajar. </string>
+    <string name="treelangkah2">2. Lalu, angkat kaki kirimu dan posisikan telapak kaki di pangkal paha kanan bagian dalam dan gunakan kaki kanan sebagai tumpuan. </string>
+    <string name="treelangkah3">3. Satukan kedua telapak tangan dan letakkan di depan dada. </string>
+    <string name="treelangkah4">4. Tahan pose selama 30-60 detik, ubah posisi dengan kaki kiri sebagai tumpuan dan kaki kanan menekuk di pangkal paha bagian kiri lalu ulangi. </string>
+
+    <!--senamdiabetes-->
+    <string name="senamdiabetes">Senam Diabetes dapat membantu memperbaiki sirkulasi darah dan juga memperkuat otot-otot kecil kaki serta mencegah terjadinya kelainan bentuk kaki. Selain itu, senam diabetes juga dapat meningkatkan kekuatan pada otot paha, betis, dan juga mengatasi keterbatasan dalam pergerakan sendi.</string>
+    <string name="senamdiabetes1">Dalam jangka panjang, senam diabetes mampu menurunkan kadar glukosa dalam darah, memperbaiki profil lemak, menurunkan tekanan darah dan menanggulangi kegemukan.</string>
+    <string name="senamdiabetes2">Untuk itu, pasien penderita diabetes dianjurkan untuk melakukan senam diabetes secara rutin  3-4 kali seminggu.</string>
+
+    <!--prefragment2-->
+    <string name="pre">Berikut adalah hal-hal yang perlu diperhatikan bagi penderita diabetes sebelum memulai olahraga :</string>
+    <string name="pre1">1. Lakukan pemeriksaan medis sebelum Anda memulai program latihan Anda seperti tes olahraga dengan pemantauan EKG, terutama jika Anda memiliki penyakit kardiovaskular, berusia di atas 35, memiliki tekanan darah tinggi (hipertensi), kadar kolesterol tinggi, merokok, atau memiliki riwayat keluarga dengan penyakit jantung.</string>
+    <string name="pre2">2. Beri tahu semua dokter Anda tentang rencana dan sasaran kebugaran Anda. Serta konsultasikan gejala yang dirasakan setelahnya. </string>
+    <string name="pre3">3. Jika Anda menderita diabetes tipe 1 dan glukosa darah Anda di atas 250 mg / dl, periksa zat keton pada urin anda. Jangan berolahraga jika kadar keton tinggi. </string>
+    <string name="pre4">4. Jika Anda memiliki komplikasi terkait diabetes, tanyakan kepada dokter maupun tim perawat diabetes Anda tentang tindakan pencegahan khusus. </string>
+    <string name="pre5">5. Pelajari cara mencegah dan mengobati kadar glukosa (gula) darah rendah (hipoglikemia). Jika Anda menggunakan obat oral atau insulin, awasi kadar glukosa darah Anda sebelum, selama, dan setelah berolahraga. </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="edituser">Edit User</string>
+    <string name="upgrade">Upgrade to Premium</string>
+    <string name="about">About</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+    <!--alarmset-->
+    <string name="nama">Nama</string>
+
+    <string name="berat">Berat</string>
+
+    <string name="kalori">Kalori</string>
+
+
+    <string name="unit">Unit</string>
+    <string name="action_search">Search</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_voice">Voice</string>
+
+    <string name="shadow_description">Drop Shadow</string>
+    <string name="load_more">Load More</string>
+    <string name="hint_minute">Minute</string>
+    <string name="message_minutes">Please Enter Minutes...</string>
+    <string name="Sewaktu">Sewaktu</string>
+
+    <string name="Puasa">Puasa</string>
+    <string-array name="occurence">
+        <item>Once</item>
+        <item>Weekly</item>
+    </string-array>
+
+
+    <string-array name="pref_alarm_play_time_entries">
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+    </string-array>
+    <string-array name="pref_alarm_play_time_values">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>300</item>
+    </string-array>
+
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="full_name">full name</string>
+
+</resources>

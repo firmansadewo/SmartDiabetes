@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:theme="@style/AppTheme"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".Login.Login"
+    >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="325dp">
+
+        <ImageView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="328dp"
+            android:layout_marginLeft="0dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="header"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/headerlogin" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="236dp"
+            android:layout_height="277dp"
+            android:layout_marginVertical="30dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/logotextshadow" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:id="@+id/swimmingpenjelasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:textColor="#000000"
+            android:text="Upgrade Ke Premium Sekarang Juga!" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="196dp"
+                android:layout_height="198dp"
+                android:layout_gravity="center"
+                android:background="@android:drawable/ic_menu_upload" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

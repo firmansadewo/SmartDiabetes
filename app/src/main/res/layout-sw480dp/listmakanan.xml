@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/daftar"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:id="@+id/beratjudul"
+            android:layout_width="42dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/nama"
+            android:text="Berat :"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/berat"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/nama"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/beratjudul"
+            />
+
+
+    <TextView
+        android:id="@+id/beratsatuan"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/nama"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="0dp"
+        android:text="gram" />
+
+    <TextView
+        android:id="@+id/kalorijudul"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/nama"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/beratsatuan"
+        android:text="Kalori :" />
+
+    <TextView
+            android:id="@+id/kalori"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/nama"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/kalorijudul" />
+
+    <TextView
+        android:id="@+id/kalorisatuan"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/nama"
+        android:layout_marginLeft="-76dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/unitjudul"
+        android:text="kkal" />
+
+    <TextView
+        android:id="@+id/unitjudul"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/nama"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/kalori"
+        android:text="Unit :" />
+
+    <TextView
+        android:id="@+id/unit"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/nama"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/unitjudul" />
+
+
+</RelativeLayout>
+
+

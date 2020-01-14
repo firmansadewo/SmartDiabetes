@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "740184059112",
+    "firebase_url": "https://smart-assistant-diabetes.firebaseio.com",
+    "project_id": "smart-assistant-diabetes",
+    "storage_bucket": "smart-assistant-diabetes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740184059112:android:11f5ff124e0da9f1122d5d",
+        "android_client_info": {
+          "package_name": "com.example.diabetes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740184059112-0nklnm8hgfktu08t7tjg3ok1q4fnhhcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.diabetes",
+            "certificate_hash": "79485ded45b2bcde3c80a60dcdede8bca628a06f"
+          }
+        },
+        {
+          "client_id": "740184059112-049su5i6rirbklf1tadeieft9ivgsul4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6iwaex_vLqL1YtrGk9xntZO5y6zKkvTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740184059112-049su5i6rirbklf1tadeieft9ivgsul4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

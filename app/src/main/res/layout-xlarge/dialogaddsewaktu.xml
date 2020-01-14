@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="9900dp"
+            android:layout_marginTop="10dp"
+            android:translationZ="60dp"
+            android:orientation="vertical">
+
+
+
+
+
+
+            <EditText
+                android:id="@+id/inputtracksewaktu"
+                android:layout_width="294dp"
+                android:layout_height="61dp"
+                android:hint="Masukkan Gula Darah"
+                />
+
+            <EditText
+                android:id="@+id/inputanggalsewaktu"
+                android:layout_width="294dp"
+                android:layout_height="61dp"
+                android:hint="Masukkan Tanggal"
+                android:focusable="false"
+                android:clickable="true"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/submitsewaktu"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
